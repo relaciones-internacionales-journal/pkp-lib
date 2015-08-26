@@ -47,7 +47,7 @@
 </tr>
 </table>
 
-<p><input type="submit" value="{translate key="common.save"}" class="button defaultButton" /> {if not $typeId}<input type="submit" name="createAnother" value="{translate key="manager.announcementTypes.form.saveAndCreateAnother"}" class="button" /> {/if}<input type="button" value="{translate key="common.cancel"}" class="button" onclick="document.location.href='{url op="announcementTypes" escape=false}'" /></p>
+<p><input type="button" value="{translate key="common.cancel"}" class="btn btn-danger btn-sm" onclick="document.location.href='{url op="announcementTypes" escape=false}'" /> {if not $typeId}<input type="submit" name="createAnother" value="{translate key="manager.announcementTypes.form.saveAndCreateAnother"}" class="btn btn-sm" /> {/if} <input type="submit" value="{translate key="common.save"}" class="btn btn-sm" /></p>
 
 </form>
 </div>
@@ -56,3 +56,4 @@
 
 {include file="common/footer.tpl"}
 
+{* MODIFICADO OJS V.2.4.6 / 06-2015*}
