@@ -18,7 +18,7 @@
 <div class="news-list">
 	{if $announcementsIntroduction != null}
 		<div class="intro">
-			<{$announcementsIntroduction|nl2br}
+			{$announcementsIntroduction|nl2br}
 		</div>
 	{/if}
 	{iterate from=announcements item=announcement}
