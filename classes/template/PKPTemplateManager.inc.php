@@ -316,7 +316,6 @@ class PKPTemplateManager extends Smarty {
 	function getCompileId($resourceName) {
 		return sha1($resourceName);
 	}
-	/**
 
 	/**
 	 * Returns the template results as a JSON message.
